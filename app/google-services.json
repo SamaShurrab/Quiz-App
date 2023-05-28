@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "324846202164",
+    "project_id": "quiz-bddbd",
+    "storage_bucket": "quiz-bddbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324846202164:android:f0fcc2c542df24ec8f8961",
+        "android_client_info": {
+          "package_name": "com.camera.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324846202164-uuog37lr68mi0br7h34tt2t8lrsrjrfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.camera.quizapp",
+            "certificate_hash": "379d3fa5805f58bd06c9d047c4167fbc5f206872"
+          }
+        },
+        {
+          "client_id": "324846202164-psqh13u25tqqjqr13j3lk8sdfd8gvcl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnXDpTblhcvf5PkgV0WR-owhNX2TauVa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324846202164-psqh13u25tqqjqr13j3lk8sdfd8gvcl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

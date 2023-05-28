@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#fefefe</color>
+    <color name="Ultramarine">#0a0b8b</color>
+    <color name="Magic_Mint">#a3f4c5</color>
+    <color name="Pattens_Blue">#d3dee8</color>
+    <color name="Shakespeare">#679ead</color>
+    <color name="Shakespeare_op">#4D679ead</color>
+    <color name="red">#FD1100</color>
+    <color name="green">#1EDF26</color>
+    <color name="Bright_Red">#92132A</color>
+    <color name="Gossamer">#3AAC87</color>
+</resources>

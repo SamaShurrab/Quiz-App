@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".StartQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/startScore"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/Ultramarine"
+            android:text="Score = "
+            android:visibility="gone"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/question_tv"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/Ultramarine"
+            android:fontFamily="monospace"
+            android:layout_marginEnd="20dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:textFontWeight="600"
+            android:layout_height="wrap_content"
+            android:text="@string/Question" />
+
+        <TextView
+            android:id="@+id/startQuestion_tv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:gravity="center"
+            android:textFontWeight="600"
+            android:fontFamily="monospace"
+            android:visibility="gone"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/answer1_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textFontWeight="600" />
+
+        <Button
+            android:id="@+id/answer2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:fontFamily="monospace"
+            android:textFontWeight="600"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/answer3_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:textFontWeight="600" />
+
+        <Button
+            android:id="@+id/answer4_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:visibility="gone"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textFontWeight="600" />
+        <ImageView
+            android:id="@+id/imageView_img"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/letsgo"/>
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:textSize="16sp"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/Ultramarine"
+            android:background="@drawable/start_shape"
+            android:text="Let's Go"
+            />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/exit_btn"
+                android:layout_width="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qusetions_shape"
+                android:textColor="@color/Ultramarine"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:text="Exit"
+                android:visibility="gone"
+                android:layout_marginRight="20dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textFontWeight="600" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

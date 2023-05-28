@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@color/white"
+    tools:context=".ShowQuestions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView_img"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/moments" />
+
+        <TextView
+            android:id="@+id/wait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="visible"
+            android:fontFamily="monospace"
+            android:textColor="#529F99"
+            android:gravity="center"
+            android:text="Wait a few moments"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/Question_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textFontWeight="600"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/Ultramarine"
+            android:text="Question : "
+            android:gravity="left"/>
+        <TextView
+            android:id="@+id/showQuestion_tv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:gravity="center"
+            android:textFontWeight="600"
+            android:visibility="gone"
+            android:fontFamily="monospace"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/answer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/Ultramarine"
+            android:text="Answers"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"
+            android:gravity="left"/>
+
+        <Button
+            android:id="@+id/showAnswer1_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:fontFamily="monospace"
+            android:textFontWeight="600" />
+
+        <Button
+            android:id="@+id/showAnswer2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:visibility="gone"
+            android:textFontWeight="600"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/showAnswer3_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:fontFamily="monospace"
+            android:textFontWeight="600" />
+
+        <Button
+            android:id="@+id/showAnswer4_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qusetions_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/Ultramarine"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textFontWeight="600" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/qusetions_shape"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Next"
+                android:textColor="@color/Ultramarine"
+                android:textFontWeight="600"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/qusetions_shape"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="previous"
+                android:textColor="@color/Ultramarine"
+                android:textFontWeight="600"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/exit_btn"
+                android:layout_width="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qusetions_shape"
+                android:textColor="@color/Ultramarine"
+                android:visibility="gone"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:text="Exit"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textFontWeight="600" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

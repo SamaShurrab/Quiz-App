@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="spinner_choose">Choose the correct answer</string>
+    <string name="spinner_option1">option1</string>
+    <string name="spinner_option2">option2</string>
+    <string name="spinner_option3">option3</string>
+    <string name="spinner_option4">option4</string>
+    <string name="question_and_answers_empty">Please ! Enter question and answers</string>
+    <string name="correct_answer_empty">Please ! choose correct answer</string>
+    <string name="find_question">The question already exists</string>
+    <string name="success_add">Questions added successfully</string>
+    <string name="internet_connect">Make sure the internet is connected</string>
+    <string name="no_found_question">There are no questions to display</string>
+    <string name="add_question">Add Question </string>
+    <string name="number_question">Please ! Enter number of questions to be added</string>
+    <string name="High_Score">High Score = </string>
+    <string name="Question">Question </string>
+
+</resources>
